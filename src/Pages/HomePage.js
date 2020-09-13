@@ -1,17 +1,14 @@
 import React from 'react'
 
 import { getLanguage, translate } from 'react-multi-lang'
-
-
+import "./HomePage.css"
 
 // const one = require('../img/1.png')
-// const two = require('../img/2.png');
-
 
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
-  }
+}
 
 class HomePage extends React.Component {
 
@@ -34,11 +31,6 @@ class HomePage extends React.Component {
     }
     
 
-
-    handleLangChange = (lg) => { 
-        this.setState({lang: lg})
-    }
-
     render() {
 
         return (
@@ -50,4 +42,4 @@ class HomePage extends React.Component {
 }
 
 
-export default HomePage
+export default translate(HomePage)

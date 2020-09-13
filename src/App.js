@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import { Route, Switch} from 'react-router-dom';
-import HomePage from './HomePage'
+import HomePage from './Pages/HomePage.js'
 
 import './App.css';
 
