@@ -42,4 +42,4 @@ class HomePage extends React.Component {
 }
 
 
-export default translate(HomePage)
+export default (HomePage)
