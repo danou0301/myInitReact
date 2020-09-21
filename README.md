@@ -1,2 +1,2 @@
-### My custom init react project
+# My custom init react project
 
